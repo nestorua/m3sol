@@ -1,0 +1,462 @@
+* {
+    box-sizing: border-box;
+}
+
+.bg-my {
+    background-color: #d8f3c7;
+}
+
+body {
+    font-size: 16px;
+    color: #000;
+    background-color: rgb(233, 229, 229);
+    margin: 0;
+}
+
+
+.navbar-brand h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #557C3E;
+    font-size: 1.5em;
+    
+    
+    text-shadow: 2px 2px 2px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    padding: 10px;
+}
+
+
+#nav-list {
+    padding: 0;
+    margin: 0;
+}
+
+#nav-list a {
+    color: #000;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: #e7f3df;
+    border: 1px solid #222;
+    margin: 0;
+    width: 100%;
+}
+
+#nav-list a:hover {
+    background: #e7e7e7;
+}
+
+.section {
+    font-size: 1.5em;
+    padding: 0px;
+    
+}
+#our-menu {
+    margin-top: 20px;
+}
+
+.info {
+    background-color: #d1cccc;
+    margin: 10px;
+    padding: 30px;
+}
+
+/*
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122F;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+    border: 0;
+    border-radius: 0;
+    background-color: #F6B319;
+}
+
+.bg_color {
+    background-color: #F6B319;
+}
+
+.navbar-brand {
+    padding: 20px;
+    
+}
+
+
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: #557C3E;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    padding-top: 10px;
+}
+
+.navbar-brand a {
+    text-decoration: none;
+}
+
+.navbar-brand p {
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+}
+
+.navbar-brand p span {
+    vertical-align: middle;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: #951C49;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+#phone2 {
+    margin-top: -20px;
+    
+}
+
+#phone2 div {
+    color: #557C3E;
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 0px;
+}
+
+#phone {
+    margin-top: 50px;
+}
+
+#phone a {
+    text-align: right;
+    padding-bottom: 0;
+}
+
+#phone span {
+    text-align: right;
+    font-size: 1.8em;
+    color: #61122F;
+}
+
+#phone div {
+    color: #557C3E;
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 50px;
+}
+
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+}
+.panel-footer div.row {
+    margin-bottom: 35px;
+}
+#hours, #address {
+    line-height: 2;
+}
+#hours > span, #address > span {
+    font-size: 1.3em;
+}
+#address p {
+    color: #abf581;
+    font-size: .8em;
+    line-height: 1.8;
+}
+#testimonials{
+    font-style: italic;
+}
+#testimonials p:nth-child(2) {
+    margin-top: 25px;
+}
+
+.container .jumbotron {
+    border: 2px solid #3F0C1F;
+    box-shadow: 0 0 50px #3F0C1F;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border: 2px solid #3F0C1F;
+    position: relative;
+    overflow: hidden;
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+    box-shadow: 0 1px 5px 1px #CCCCCC;
+}
+
+#menu-tile {
+    background: url("../images/menu-tile1.png") no-repeat;
+    background-position: center;
+}
+
+
+#specials-tile {
+    background: url("../images/specials-tile1.png") no-repeat;
+    background-position: center;
+}
+
+
+#menu-tile span, #specials-tile span, #map-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    background-color: #000;
+    color: #fff;
+    opacity: .7;
+}
+
+.category-file {
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+}
+.category-file span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.75;
+}
+.category-file:hover {
+    box-shadow: 0 1px 5px 1px #CCCCCC;
+}
+#menu-categories-title + div {
+    margin-bottom: 50px;
+}
+
+
+#menu-categories-ttile {
+    margin-top: 25px;
+}
+.menu-item-tile {
+    margin-bottom: 25px;
+}
+.menu-item-tile hr {
+    width: 80%;
+    height: 5px;
+}
+.menu-item-tile .menu-item-price {
+    font-size: 1.1em;
+    text-align: right;
+    
+    margin-top: -15px;
+    margin-right: -15px;
+    
+}
+.menu-item-tile .menu-item-price span {
+    font-size: .6em;
+}
+.menu-item-photo {
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 250px;
+}
+.menu-item-photo div {
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    background-color: #557C3E;
+    text-align: center;
+}
+.menu-item-description {
+    padding-right: 30px;
+}
+h3.menu-item-title {
+    margin: 0 0 10px;
+}
+.menu-item-details {
+    font-size: .9em;
+    font-style: italic;
+}
+
+@media (min-width: 1400px) {
+
+#logo-img {
+    background: url("../images/restaurant-logo_large.png") no-repeat;
+    width: 150px;
+    height: 150px;
+    margin-right: 15px;
+    float: left;
+
+}
+
+.container .jumbotron1 {
+    background: url("../images/jumbotron_1400.png") no-repeat;
+    width: 1700px;
+    height: 1015px;
+    border: 2px solid #3F0C1F;
+    box-shadow: 0 0 50px #3F0C1F;
+    margin-bottom: 100px;
+}
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+#logo-img {
+    background: url("../images/restaurant-logo_large.png") no-repeat;
+    width: 150px;
+    height: 150px;
+    margin-right: 15px;
+    float: left;
+
+}
+
+.container .jumbotron1 {
+    background: url("../images/jumbotron_1200.jpg") no-repeat;
+    height: 675px;
+    border: 2px solid #3F0C1F;
+    box-shadow: 0 0 50px #3F0C1F;
+    margin-bottom: 100px;
+}
+}
+
+@media (min-width: 998px) and (max-width: 1199px) {
+    #logo-img {
+        background: url("../images/restaurant-logo_medium.png") no-repeat;
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px 0;
+        float: left;
+    }
+  
+
+.container .jumbotron1 {
+    background: url("../images/jumbotron_992.jpg") no-repeat;
+    height: 558px;
+    border: 2px solid #3F0C1F;
+    box-shadow: 0 0 50px #3F0C1F;
+}
+}
+
+@media (min-width: 768px) and (max-width: 997px) {
+    
+
+.container .jumbotron1 {
+    background: url("../images/jumbotron_768.jpg") no-repeat;
+    height: 432px;
+    border: 2px solid #3F0C1F;
+    box-shadow: 0 0 50px #3F0C1F;
+}
+}
+
+@media (max-width: 767px) {
+   .navbar-brand {
+       padding-top: 10px;
+       height: 80px;
+   } 
+   .navbar-brand h1 {
+       padding-top: 10px;
+       font-size: 5vw;
+   }
+   .navbar-brand p {
+       margin-top: 12px;
+       font-size: 0.6em;
+   }
+   .navbar-brand p img {
+       height: 20px;
+   }
+   #nav-list a {
+       font-size: 1.8em;
+       
+   }
+   #nav-list a span {
+       font-size: 1em;
+       margin-right: 5px;
+   }
+
+
+   .container .jumbotron {
+        margin-top: 30px;
+   }
+
+   .panel-footer section {
+       margin-bottom: 30px;
+       text-align: center;
+   }
+   .panel-footer section:nth-child(3) {
+       margin-bottom: 0;
+   }
+   .panel-footer section hr {
+       width: 50%;
+       height: 5px;
+       margin: auto;
+       margin-top: 10px;     
+   }
+
+
+   .menu-item-photo {
+       margin-right: auto;
+   }
+   .menu-item-tile .menu-item-price {
+       text-align: center;
+   }
+   .menu-item-description {
+       text-align: center;
+       margin-top: 15px;
+   }
+    .menu-item-tile hr {
+       margin: auto;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .col-z-12 {
+        flex:0 0 auto;
+        width:100%;
+    }
+}
+
+#call-btn {
+    margin-top: 20px;
+    border-color: #714eee;
+}
+#call-btn span {
+    color:#61122F;
+    font-size: 1.8em;
+}
+*/
